@@ -1,0 +1,138 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+  background-size: 10px 10px, 10px 10px, 10px 5px;
+  background-position: 0px 0px, 5px 5px, 0px 0px;
+}
+
+/*Containers*/
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 20px;
+}
+
+/*Images*/
+.main_logo {
+  width: 400px;
+  align-self: center;
+}
+
+/*Button & Navigation Styles*/
+
+#res {
+  background-color: rgb(19, 134, 177);
+}
+
+#comm {
+  background-color: rgb(129, 186, 62);
+}
+
+#indu{
+  background-color: rgb(50, 50, 50);
+}
+
+.nav {
+  padding-top: 40px;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  margin-top: 40px;
+}
+
+.dropdown {
+  display:inline-block;
+  font-family:arial;
+  margin:15px;
+  font-size:16px;
+  margin-top: 30px;
+}
+
+.dropdown-button {
+  min-width:200px;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing:0.050rem;
+  padding:10px 30px 10px 20px;
+  cursor:pointer;
+}
+
+.dropdown ul.active {
+  transition:all .3s ease;
+  transform:scaleY(1);
+  color:#333;
+}
+
+.dropdown-selection {
+  display: none;
+  flex-direction: column;
+  transform:scaleY(1);
+  padding: 0;
+  left: 0;
+  top: 100%;
+}
+
+.dropdown li {
+  background:#fff;
+  padding:8px 10px 8px 15px;
+  box-sizing:border-box;
+  cursor:pointer;
+  transition:background .2s ease;
+  position:relative;
+  list-style: none;
+}
+
+.button-container {
+  display: flex;
+}
+
+.down-arrow {
+  display: flex;
+  padding-right: 8px;
+  height: 18px;
+}
+
+.triangle {
+  display: flex;
+  align-items: center;
+}
+
+ .blue-drop li:hover {
+  background-color: rgb(135, 194, 213);
+}
+
+.green-drop li:hover {
+ background-color: rgb(190, 218, 175);
+}
+
+.grey-drop li:hover {
+ background-color: rgb(152, 152, 152);
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+
+.flipped {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}

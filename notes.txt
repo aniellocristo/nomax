@@ -1,0 +1,39 @@
+Industrial Color: R=45 G=45 B=45
+Commercial Color: R=140 G=186 B=0
+Residential Color: R=0 G=166 B=235
+
+
+Nomax Blue
+Web: #0c85b6
+RGB: 12 133 182
+CMYK: 84 38 13 0
+HSB: 197 93 71
+Lab: 52 -17 -35
+
+Icon Green
+Web: #81bd41
+RGB: 129 189 65
+CMYK: 55 3 100 0
+HSB: 89 65 74
+Lab: 71 -35 54
+
+
+Residential
+  - Homes
+  - Apartments
+  - Condominiums
+
+Commercial
+  - Educational
+  - Retail
+  - Offices
+  - Healthcare
+  - Restaurants
+  - Venues
+
+Industrial
+  - Warehousing
+  - Distribution
+  - Transportation
+  - Manufacturing
+  - Refinery
