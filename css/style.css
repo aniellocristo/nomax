@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   align-content: center;
   margin-top: 20px;
+  height: 100vh;
 }
 
 /*Images*/
@@ -49,7 +50,7 @@ body {
   justify-content:center;
   align-items:center;
   height:100%;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .dropdown {
@@ -135,4 +136,28 @@ a:visited {
   -o-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
+}
+
+
+/*Media Queries*/
+
+@media (min-width: 1020px) {
+  .main_logo {
+    width: 600px;
+    margin-top: 30px;
+  }
+
+
+  .container {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .nav {
+    align-items: center;
+    margin: auto 0;
+    padding-top:0;
+  }
+
+
 }
