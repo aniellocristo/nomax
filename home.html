@@ -2,35 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nomax Technologies</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styletemplate.css">
     <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="javascript/script.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle2.caption2.min.js"></script>
+    <script type="text/javascript" src="javascript/interactive.js"></script>
   </head>
+
   <body>
 
-  <div class="flex-1">
+      <div id="bodywrap">
 
-    <div class="top-header">
-      <img class="main_logo" src="images/nomax_logo2.svg" alt="No Max Logo"></img>
-      <div class="nav-bar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href=".html">Residential</a></li>
-          <li><a href="trainer.html">Commercial</a></li>
-          <li><a href="testimonials.html">Industrial</a></li>
-          <li><a href="products.html">About Us</a></li>
-        </ul>
-
-        <div class="search-bar">
-
+        <div id="head1">
+          <div id="logo1">
+          <img class="piclogo" src="images/logo.svg">
+        </div>
+        <div class="row">
+          <a class="mobile_menu" title="Menu">Menu</a>
+          <img class="arrow" src="images/arrow.svg">
+        </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</li>
+              <li><a href="residential.html">Residential</a></li>
+              <li><a href="commercial.html">Commerical</a></li>
+              <li><a href="industrial.html">Industrial</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
         </div>
 
-      </div>
-    </div>
-  </div>
+<!-- Silder  -->
 
-  </body>
+<div class="cycle-slideshow"
+    data-cycle-fx=scrollHorz
+    data-cycle-timeout=5000
+    data-cycle-caption-plugin=caption2
+    data-cycle-overlay-fx-out="slideUp"
+    data-cycle-overlay-fx-in="slideDown"
+    >
+    <div class="cycle-overlay"></div>
+
+    <img src="images/temp1.jpg" data-cycle-title="Project One" data-cycle-desc="City One, ST">
+    <img src="images/temp2.jpg" data-cycle-title="Project Two" data-cycle-desc="City Two, ST">
+      <img src="images/temp3.jpg" data-cycle-title="Project Three" data-cycle-desc="City Three, ST">
+
+
+</div>
+
+<!-- END of Slider -->
+
+<!-- Footer -->
+        <footer>
+          <p class="contact"><a href="contact.html">Contact Us</a></p>
+          <p class="copy">&#169 NoMax Technologies</p>
+        </footer>
+      </div>
+    </body>
 
 </html>

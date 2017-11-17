@@ -20,6 +20,7 @@ body {
   height: 100vh;
 }
 
+
 /*Images*/
 .main_logo {
   width: 325px;
@@ -138,6 +139,18 @@ a:visited {
   transform: scale(1, -1);
 }
 
+/*404 Page Format*/
+.res-text {
+  color: rgb(19, 134, 177);
+}
+
+.com-text {
+  color: rgb(129, 186, 62);
+}
+
+.ind-text {
+  color: rgb(50, 50, 50);
+}
 
 /*Media Queries*/
 
@@ -150,12 +163,13 @@ a:visited {
 
   .container {
     flex-direction: row;
-    margin-top: 0;
+    margin-top: 75px;
+    align-items: start;
   }
 
   .nav {
     align-items: center;
-    margin: auto 0;
+    margin: 0;
     padding-top:0;
   }
 

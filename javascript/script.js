@@ -19,7 +19,12 @@ $( document ).ready(function() {
 
 //Arrow rotationg fucntions
 
-
 $(".down-arrow").toggleClass('flip');
+
+//Slideshow
+
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
 
 });
