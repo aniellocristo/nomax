@@ -9,31 +9,64 @@
     <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.cycle2.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.cycle2.caption2.min.js"></script>
-    <script type="text/javascript" src="javascript/interactive.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
   </head>
 
   <body>
 
-      <div id="bodywrap">
+    <div class="flex-1">
 
-        <div id="head1">
-          <div id="logo1">
-          <img class="piclogo" src="images/logo.svg">
-        </div>
-        <div class="row">
-          <a class="mobile_menu" title="Menu">Menu</a>
-          <img class="arrow" src="images/arrow.svg">
-        </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</li>
-              <li><a href="residential.html">Residential</a></li>
-              <li><a href="commercial.html">Commerical</a></li>
-              <li><a href="industrial.html">Industrial</a></li>
-              <li><a href="about.html">About</a></li>
+      <img class="main_logo" src="images/nomax_logo1.svg" alt="No Max Logo"></img>
+
+      </div>
+
+      <div id="menu-pull">Menu</div>   <!-- MENU PULL END -->
+
+        <div class='container'>
+          <div class='dropdown' id='res'>
+          <div class="button-container">
+            <div class='dropdown-button'>Residential</div>
+            <span class='triangle'><img  class="down-arrow" src="images/dn-arrow-blk.svg" alt=""></span>
+          </div>
+            <ul class='dropdown-selection blue-drop'>
+              <a href="home.html"><li>Home</li></a>
+              <a href="_blank"><li>Apartment</li></a>
+              <a href="_blank"><li>Condominium</li></a>
             </ul>
-          </nav>
+          </div>
+
+
+          <div class='dropdown' id='comm'>
+            <div class="button-container">
+              <div class='dropdown-button'>Commerical</div>
+              <span class='triangle'><img  class="down-arrow" src="images/dn-arrow-blk.svg" alt=""></span>
+            </div>
+            <ul class='dropdown-selection green-drop'>
+              <li><a href="_blank">Educational</a></li>
+              <li><a href="_blank">Retail</a></li>
+              <li><a href="_blank">Office</a></li>
+              <li><a href="_blank">Healthcare</a></li>
+              <li><a href="_blank">Restaurant</a></li>
+              <li><a href="_blank">Venue</a></li>
+            </ul>
         </div>
+
+
+          <div class='dropdown' id='indu'>
+            <div class="button-container">
+              <div class='dropdown-button'>Industrial</div>
+              <span class='triangle'><img  class="down-arrow" src="images/dn-arrow-blk.svg" alt=""></span>
+            </div>
+            <ul class='dropdown-selection grey-drop'>
+              <li><a href="_blank">Warehousing</a></li>
+              <li><a href="_blank">Distribution</a></li>
+              <li><a href="_blank">Transportation</a></li>
+              <li><a href="_blank">Manufacturing</a></li>
+              <li><a href="_blank">Refinery</a></li>
+            </ul>
+        </div>
+      </div>
+</div> <!--End Flex Wrap-->
 
 <!-- Silder  -->
 
@@ -48,8 +81,7 @@
 
     <img src="images/temp1.jpg" data-cycle-title="Project One" data-cycle-desc="City One, ST">
     <img src="images/temp2.jpg" data-cycle-title="Project Two" data-cycle-desc="City Two, ST">
-      <img src="images/temp3.jpg" data-cycle-title="Project Three" data-cycle-desc="City Three, ST">
-
+    <img src="images/temp3.jpg" data-cycle-title="Project Three" data-cycle-desc="City Three, ST">
 
 </div>
 
@@ -60,7 +92,6 @@
           <p class="contact"><a href="contact.html">Contact Us</a></p>
           <p class="copy">&#169 NoMax Technologies</p>
         </footer>
-      </div>
     </body>
 
 </html>
